@@ -1,7 +1,8 @@
 # Homelab Uptime Kuma
 
 An automated deployment setup for self-hosting **Uptime Kuma** via Docker Compose inside a Proxmox LXC or a fresh Linux machine.
-Prerequisites
+
+Prerequisites:
 - A fresh Linux environment (Debian 12 / Ubuntu recommended).
 - Root or sudo privileges to install system packages and Docker.
 
