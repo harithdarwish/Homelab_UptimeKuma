@@ -17,3 +17,7 @@ Download the project repository and setup files from GitHub:
 ```bash
 git clone https://github.com/harithdarwish/Homelab_UptimeKuma.git
 cd Homelab_UptimeKuma
+
+### 2. Run the Automated Installation Script
+
+./install-UptimeKuma.sh
