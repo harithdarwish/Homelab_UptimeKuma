@@ -1,0 +1,19 @@
+services:
+  uptime-kuma:
+    image: louislam/uptime-kuma:1-alpine
+    container_name: uptime-kuma
+    restart: always
+
+    ports:
+      - "3001:3001"
+
+    volumes:
+      - uptime-kuma-data:/app/data
+
+    environment:
+      - TZ=Asia/Kuala_Lumpur
+
+volumes:
+  uptime-kuma-data:
+    external: true
+    name: uptime-kuma_uptime-kuma-data
